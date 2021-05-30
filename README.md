@@ -20,33 +20,31 @@ Click the executable file: MegaMerge.exe
 Found the output file in \output
 ```
 
-<pre>
 Edit the appSettings.json to change the configuration, see sample appSettings file above.
 inputConfig structure:
+
 
 ```
 -- FolderPath
 -- FileDictionary
 	-- CompanyCode: 1
-			-- FileType
-					-- filenames
-```
+		- FileType
+			-- Filenames
 
 ```
-		...
-```
+
 
 To extend more company, add here: 
 ```
-	-- CompanyCode: x
-			-- FileType
-					-- filenames
+	-- CompanyCode: n
+		- FileType
+			-- Filenames
 ```
 </pre>
 
 output folder(can be configured in appSettings.json):
 ```
-MegaMerge\bin\Release\netcoreapp3.1\output
+\output
 ```
 
 ## Assumptions
